@@ -1,0 +1,425 @@
+Show Notes: http://www.superdatascience.com/802 1
+SDS PODCAST
+EPISODE 802:
+IN CASE YOU MISSED
+IT IN JUNE 2024
+    Show Notes: http://www.superdatascience.com/802 2
+Jon: 00:02 This is episode number 802, our In Case You Missed it in
+June episode.
+    00:19 Welcome back to the Super Data Science Podcast. I'm
+your host, Jon Krohn. This is an In Case You Missed It
+episode that highlights the best parts of conversations we
+had on the show in the last month. This first clip you'll
+hear is from my interview with Dr. Jason Yosinski, one of
+my all-time favorite AI researchers. We had a great
+conversation about making your AI and ML models
+attractive to customers.
+    00:40 In this clip, I got him to speak from his experience as
+CEO of the climate technology startup he founded,
+Windscape AI. This is a great case study if you're
+planning to launch your own AI models commercially.
+00:51 I'm sure that kind of engineering mindset is applicable to
+a lot of our listeners, and it seems like your approach is
+working. So EDP, a large Portuguese utility company,
+recently selected Windscape as one of nine startups for its
+renewable innovation program in Singapore to accelerate
+the global energy transition. What opportunities do you
+see emerging from Windscape AI's participation in this
+program?
+    Jason: 01:16 Yeah. Well, thanks for mentioning that. We did apply for
+this program. We were selected. EDP is a huge utility. I
+believe they're the fourth-largest wind owner in the world.
+So they own tons and tons of turbines. They generate a
+lot of wind energy. When I met with folks from EDP, I
+found them to be a very forward-looking organization.
+Sometimes you get a big company and they're impossibly
+slow or something, but these folks are really pushing the
+boundaries, all the boundaries they can, which I thought
+was super cool.
+    Show Notes: http://www.superdatascience.com/802 3
+01:50 What we hope to get out of it and where that collaboration
+might go is to pilot our technology, start working with
+them, see how it works on their wind farms around the
+world. And then if it does work really well, hopefully we
+roll out more broadly and we can also maybe use that as
+a demo for new potential customers.
+    Jon: 02:08 Very cool. So it sounds like EDP is forward-looking. But
+in general, do you counter resistance or hurdles as you
+try to come to energy utilities and say, "Hey, you could be
+using AI like Windscape's to be improving the efficiency of
+your systems." Do you encounter resistance or hurdles,
+or is it relatively straightforward to convince people that
+you're doing something valuable?
+    Jason: 02:31 I wouldn't say it's straightforward. No. Convincing people
+that what you're doing is valuable is maybe always hard. I
+would say saying the words AI or machine learning
+doesn't immediately open all the doors. It can open some
+doors. Some of these companies realize that AI might be
+revolutionizing things that happen internally, and they're
+not quite sure how yet, but maybe we should talk to these
+randos from Windscape and see what they think.
+02:59 It does open some doors, but not all. Just as probably
+within any industry, there are some organizations that
+are very forward-looking and others early adopters of any
+technology and others that are slower, that are later
+adopters. They literally, some have told us, "We don't care
+what you're [inaudible 00:03:17], just show us when four
+other companies are using it and then we'll consider
+using it because how we work," which is potentially an
+efficient choice from their perspective.
+    03:27 There's also small energy companies and large energy
+companies, and there's a spectrum there of how you sell
+to these companies and how you get adoption and so on.
+So yeah, and convincing everyone, it can be hard. You
+Show Notes: http://www.superdatascience.com/802 4
+have to convince people that your technology will work,
+that it won't be a huge headache to adopt. The people in
+the field need to buy into it. It can't ruin their workflow or
+something. It has to be possible to actually integrate. So
+some of these systems run software that's hard to work
+with and simply integrating can be difficult at times. So I
+don't know, there's a lot of factors probably as in any
+industry.
+    Jon: 04:10 Yeah, it makes so much sense. And hopefully I'm not
+going too deep here, and if I am asking a question that
+would give away some kind of IP, just feel free to not
+answer this. But it seems to me like in a situation like
+yours, where you are providing software to hardware
+companies, say the turbine manufacturers, you are not,
+at least in the immediate term, planning on building, say
+your own turbines, your own wind farms.
+    04:37 You are a software company. You need to be partnering
+with turbine manufacturers, with wind farm operators.
+How does that work? Are people... I guess maybe your
+response is going to be similar, where there's a range of
+responses where some turbine manufacturers are
+relatively early adopters. They see the potential. They say,
+"Wow, Jason's done a lot of amazing research in the past.
+He seems like the kind of person we should be working
+with to accelerate our roadmap." And then other folks are
+just like, "Yeah, we've got our own team," or I don't know.
+How does it look for you? Yeah.
+    Jason: 05:09 What we started this whole endeavor, what we imagined
+would happen is we would first build products that we
+would sell to people that own the turbines. Why do they
+want them? Because our product would help them make
+more money starting next month. We help them make
+more money. They like our product, we roll out, they tell
+their friends. We deploy to more and more farms, more
+and more companies. As we start to increase our market
+Show Notes: http://www.superdatascience.com/802 5
+penetration in the industry, then much later, turbine
+manufacturers would notice and they would say, "Hey,
+everyone's using these Windscape people. Maybe we
+should talk to them and consider integrating their thing
+off the factory floor rather than an as aftermarket add-on
+on."
+    05:48 That's still the process we're following, although we've
+been surprised that some OEMs are interested in chatting
+early. I think they just want to have on their radar what's
+going on in the world. And if there's any promising
+technology, they want to be there first. So I guess we're
+already having some of those conversations too.
+Jon: 06:05 And now, we move from offers that tech companies can
+refuse to regulations that startups have a duty to follow.
+In this clip with the systems engineering and AI
+regulation guru, Dr. Gina Guillaume-Joseph, she lays out
+the evolving regulatory field for AI, which can be difficult
+to navigate even if you've got the best of intentions.
+Specifically, Gina and I talk about the AI Bill of Rights,
+the NIST AI regulatory framework, and her work on the
+MITRE ATLAS.
+    06:32 Explain for us... You mentioned there, so there's the NIST
+AI risk management framework. So NIST is the National
+Institutes of Science and Technology, that may be familiar
+as an acronym. The NIST thing is something for those of
+us who have done any deep learning to kind of Hello
+world deep learning example involves this handwritten
+data set of digits. So it's 60,000 handwritten digits done
+by, if I remember correctly, US postal workers, as well as
+elementary school students. And so it's just each image is
+a different digit. So it's some of them are zero, some are
+one, some are two, some are threes, all the way up to
+nine. And this handwritten dataset was curated initially, I
+guess in the '90s, maybe even in the '80s by NIST.
+Show Notes: http://www.superdatascience.com/802 6
+    07:24 And then Yann Le Cun, who's one of the most famous AI
+researchers of all time, he modified with his research
+team at the time, I believe they were AT&T Bell Labs, they
+modified that NIST handwritten digit dataset to create the
+MNIST, modified NIST, handwritten dataset. So I don't
+know, it's a bit of an aside, but that MNIST dataset is
+probably familiar to anyone who's done any kind of deep
+learning at all. And so yeah, so that same organization,
+NIST, has been around for a long time in the US I don't
+know how many decades.
+    07:58 But has been trying to set up frameworks for all different
+kinds of industries in science and technology, and has
+now created this AI risk management framework, which
+again, I'll have a link to that in the show notes alongside
+the AI Bill of Rights. A third framework, I guess, you can
+correct me if I'm not using the right word there, that you
+brought up in your talk that also seems really helpful
+here is something called the MITRE ATLAS.
+    08:26 So I've been trying to, as you've been speaking, dig up
+what MITRE stands for, M-I-T-R-E. It doesn't seem like it
+stands for anything. Can you tell us a bit about MITRE
+and the MITRE ATLAS and then maybe you can weave
+together these three different things; the AI Bill of Rights,
+the NIST AI regulatory framework, as well as MITRE
+ATLAS. And tell us how we can integrate these three
+frameworks together in order to have a good sense of how
+to move forward with the AI systems that we built.
+Gina: 08:58 So MITRE is a not-for-profit organization. I worked for
+them for 10 years, and they support the federal
+government across all the federal government agencies to
+help them solve some of the most pressing challenges. So
+MITRE operates federally funded research and
+development centers in support of the federal government
+to solve problems for a safer world, essentially is what
+MITRE does. And while at MITRE, I supported multiple
+Show Notes: http://www.superdatascience.com/802 7
+agencies; Department of Homeland Security, Social
+Security Administration, Veterans Affairs, Department of
+Defense, in some of the challenges that they were facing
+at the time.
+    09:45 Societal challenges to include when the economy was
+doing some downward slides and banks were failing, part
+of some of the work that I did was at the FDIC, that was
+with Booz Allen. But MITRE was involved in other aspects
+of that as well, to really understand the failures and to
+figure out the mitigation strategies to ensure that society
+didn't feel those impacts as broadly and as strongly.
+10:24 And MITRE created the ATLAS threat model introduction,
+threat model. It's this comprehensive coverage of AIspecific adversary tactics techniques that includes realworld observation and reporting. It talks about
+accessibility and usability of AI alignment with existing
+cybersecurity frameworks in terms of from an AI
+perspective. And that community engagement
+contribution and the educational resources and training.
+10:58 So they're developing a detailed taxonomy of tactics, of
+techniques, of procedures specific to AI systems that
+cover the entire lifecycle from data collection to model
+development and deployment and maintenance. Where
+they establish those mechanisms for continuously
+gathering and updating threat intelligence based on realworld cybersecurity incidents involving AI so that the
+knowledge base remains current and relevant. So that's
+what MITRE is doing it with their MITRE ATLAS
+framework. And the framework integrates their existing
+MITRE attack for enterprise framework that shows that
+they bring in that consistency and interoperability across
+cybersecurity efforts as it pertains to AI systems. And
+that's MITRE ATLAS threat model.
+Show Notes: http://www.superdatascience.com/802 8
+Jon: 12:01 Terrifically useful context there from Gina. In my next
+clip, Alex Andorra and I discuss Bayesian statistics,
+namely why being able to crunch larger and larger data
+sets has helped us to use a powerful modeling technique
+that was originally devised centuries ago.
+12:15 In addition to the podcast, also, I mentioned this at the
+outset, I said that you're co-founder and principal data
+scientist of the popular Bayesian stats modeling platform,
+PyMC. So like many things in data science, it's uppercase
+P, lowercase Y, for Python. What's the MC? PyMC, one
+word, M and the C are capitalized.
+Alex: 12:38 So it's very confusing because it stands for Python and
+then MC is Monte Carlo. So I understand, but why Monte
+Carlo? It's because it comes from Markov chain Monte
+Carlo. So actually, it should be PyMCMC or PyMC
+squared, which is what I'm saying since the beginning.
+But anyways, yeah, it's actually PyMC squared. So for
+Markov chain Monte Carlo and Markov chain Monte Carlo
+is one of the main ways... All the algorithms now, new
+ones, but the blockbuster algorithm to run Bayesian
+models is to use MCMC.
+Jon: 13:21 So in the same way that stochastic gradient descent is
+like the defacto standard for finding your model weights
+in machine learning, Markov chain Monte Carlo is the
+standard way of doing it with the Bayesian network?
+Alex: 13:36 Yeah. Yeah, yeah. And so now there are newer versions,
+more efficient versions. That's basically the name of the
+game, making the algorithm more and more efficient. But
+the first algorithm dates back... I think it was actually
+invented during the project Manhattan. So during World
+War II.
+Jon: 13:57 Theme of the day.
+Show Notes: http://www.superdatascience.com/802 9
+Alex: 13:58 Yeah. And lots of physicists actually, statistical physics is
+a field that's contributed a lot to MCMC. And so yeah,
+physicists who came to the field of statistics and trying to
+make the algorithms more efficient for their models. So
+they have contributed a lot. The field of physics has
+contributed a lot of big names and people to great leaps
+into the realm of more efficient algorithms. And so, I don't
+know who your audience is, but that may sound boring.
+14:37 Yeah, the algorithm, it's like the workhorse, but it's
+extremely powerful. And that's also one of the main
+reasons why Bayesian statistics are increasing in
+popularity lately, because I'm going to argue that it's
+always been the best framework to do statistics, to do
+science. But it was hard to do with pen and paper
+because the problem is that you have a huge, nasty
+integral on the numerator, on the denominator, sorry.
+And this integral is not computable by pen and paper. So
+for a long, long time, Bayesian statistics combined two
+features like campaigns, PR campaigns. Bayesian
+statistics was relegated to the margins because it was just
+super hard to do.
+15:31 And so for other problems, other than very trivial ones, it
+was not very applicable. But now with the advent of
+personal computing, you have these incredible
+algorithms. So now most of the time, it's HMC, Hamilton
+and Monte Carlo. That's what we use under the hood with
+PyMC. But if you stand, if you use [inaudible 00:15:54] ,
+it's the same. And thanks to these algorithms, now we
+can make extremely powerful models because we can
+approximate the [inaudible 00:16:03] distributions thanks
+to, well, computer's computing power. A computer is very
+good at computing. I think that's why it's called that.
+Jon: 16:15 Yes. And so that reminds me of deep learning. It's a
+similar kind of thing where the applications we have
+today, like your ChatGPT or whatever your favorite large
+Show Notes: http://www.superdatascience.com/802 10
+language model is, these amazing. Video generation like
+Sora, all of this is happening thanks to deep learning,
+which is an approach we've had since the '50s. Certainly
+not as old as Bayesian statistics, but similarly, it has
+been able to take off with much larger data sets and
+much more compute.
+Alex: 16:46 Yeah, yeah. Yeah, yeah, very good point. And I think
+that's even more the point in deep learning for sure,
+because Bayesian stats doesn't need the scale, but the
+way we're doing deep learning for now, definitely need the
+scale.
+Jon: 16:58 Yeah, yeah. Scale of data.
+Alex: 17:00 Yeah, yeah, exactly. Yeah, sorry, yeah, the scale, because
+our two scales, data and computing. Yeah. You're right.
+Jon: 17:05 And for model parameters. So that has actually... I mean,
+tying back to something you said near the beginning of
+this episode, is that actually one of the advantages of
+Bayesian statistics is that you can do it with very few
+data. Maybe fewer data than with a frequentist approach
+or a machine learning approach, because you can bake in
+your prior assumptions. And those prior assumptions
+give some kind of structure, some kind of framework for
+your data to make an impact.
+Alex: 17:32 Yeah. Yeah, completely.
+Jon: 17:34 And in keeping with the theme of returning to the past to
+find golden opportunities, I speak to Dr. Nathan Lambert
+about historical influences on contemporary
+methodologies. I also managed to sneak in a question
+about reinforcement learning from human feedback.
+Nathan is a research scientist for the Allen Institute for
+AI, and previously built out the RLHF team at Hugging
+Face. So there was no better person to ask about the lack
+Show Notes: http://www.superdatascience.com/802 11
+of robustness in RLHF and how that could impact the
+future development and deployment of AI systems.
+18:02 Another really cool thing that you've done related to RLHF
+is you have traced it back to ancient philosophy and
+modern economics. So mentioning Aristotle and von
+Neumann-Morganstern utility theorem, for example. I
+don't really know what the VNM utility theorem is, but
+how do these historical foundations influence current
+methodologies and what can modern AI research learn
+from these early theories?
+Nathan: 18:30 Yeah. So this is a fun paper with a few colleagues that I
+started working with at Berkeley, and now we're kind of
+spread out. This is all based on the fact that RL is very
+deep field multidisciplinary history, where it goes way
+back. And then the notion of preference is a very vague
+thing in economics. And it's like the von NeumannMorganstern theory is a foundational thing that
+essentially it's like you can express either all behaviors or
+all goals as probability and expected value distributions,
+which essentially lets you do expected value math over
+preferences.
+19:10 And then it led to a bunch of debates on whether or not
+preferences actually exist and are tractable in any of
+these things, or if they're actually measurable or not due
+to the preference shift over time based on context. So
+these are the kinds of things that we take and it's ask a
+lot of questions on how this impacts the modern RLHF
+process. It's things like is the final model's preferences,
+which is like we're mapping onto very human terms, is
+that actually based more on the the base model, which is
+scraped from the internet than the human preferences
+that they get from somewhere like Scale AI.
+19:46 So it's like if it's based more on the internet crawling than
+this million dollar dataset they're getting from Scale AI,
+Show Notes: http://www.superdatascience.com/802 12
+it's kind of confusing to the marketing where we're saying
+we're learning a preference model, but it might not
+actually do that much. Is other things like OpenAI now
+has a ton of user data and it's like what does the
+economics literature say about generating data for
+training that comes from a user context or a professional
+context where someone is paid to do it and they're paid to
+act in a certain way? And how does all of this mix? So it's
+really just a super long list of questions of why we should
+look at other social sciences if we're making grand claims
+about human preferences and all of these things.
+Jon: 20:26 Nice. Well, fascinating. Tons to dig into there for our
+listeners. Final topic that I planned related to RLHF, I'm
+sure it'll come up again organically in the conversation,
+but you've mentioned that RLHF is not even robust to
+fine-tuning. And so removing the safety layer from models
+like GPT-4 and Llama 2 can break down the notion of
+safety. Can you elaborate on the implications of this
+fragility for the future development and deployment of AI
+systems?
+Nathan: 20:59 Yeah, so this is a specific line of research. So there's a few
+papers that showed that if you take a model like Zephyr
+or Tulu that we were mentioning, if they have safety in
+the dataset, if you then go and fine-tune it again on some
+different tasks, you'll do some of the behaviors that are
+"ingrained" in the model. I honestly think this is a little
+bit more clickbaity than actually worrisome because it's
+really not surprising given that if you just look at the
+amount of compute applied at fine-tuning, we pre-trained
+these models for trillions of tokens. And then we apply a
+couple billion tokens of compute at fine-tuning.
+21:36 And it's like we're not changing the weights of the model
+substantially. We're doing a slight nudge, and it makes
+sense that a slight nudge could be undone at the same
+way. But if you were to take this to some of the bigger
+Show Notes: http://www.superdatascience.com/802 13
+labs, what you hear is that safety is not just a single
+artifact thing. Safety is much more about a complete
+system than a model. So open weight models being
+unsafe or unsafe, I don't consider to be that big of a deal.
+It's like if you were to apply them to a free endpoint that
+everyone on the internet could talk to, then I don't want
+my model saying good things about Hitler and all these
+obvious things.
+22:09 But if it's a research artifact that you need to spin up
+GPUs to use yourself, and it's a little bit more... I'm more
+open to having these diversity of models exist. But if you
+ask [inaudible 00:22:22] or somebody, it's like, "What
+happens... How do you get safety into your model?" And
+it's like, it's not just RLHF. You need to have safety at the
+pre-training, any preference model you trained. And then
+all of these models have a safety filter on the output. So
+ChatGPT, it reads all the text generated from the base
+model, and then there's a go, no go where it will rephrase
+the text if it gets a no-go signal, which is like their content
+moderation API.
+22:45 So it's kind of a double. It's the type of thing where
+researchers need to market their work, but it's not as big
+of a detail as I think it is. It's like, okay, I think it has
+interesting business downstream things with liability. So
+it's just like if you want to fine-tune a Llama model, you
+normally do that on your own hardware, but OpenAI has
+a fine-tuning API. And if they claim their model is safe,
+but any fine-tuning on their API that they then host
+makes it unsafe, that seems like more of a business
+problem. Which is like, oh, it's a nice way that open
+ecosystem might be better off because it breaks the
+liability chain. But we'll see this research continue to
+evolve. It's so early in all of these things for a year in.
+Jon: 23:31 All right. That's it for today's In Case You Missed It
+episode, to be sure not to miss any of our exciting
+Show Notes: http://www.superdatascience.com/802 14
+upcoming episodes. Be sure to subscribe to this podcast
+if you haven't already. But most importantly, I hope you'll
+just keep on listening. Until next time, keep on rocking it
+out there. And I'm looking forward to enjoying another
+round of Super Data Science Podcast with you very soon.
