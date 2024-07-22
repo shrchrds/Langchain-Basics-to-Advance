@@ -2,3 +2,5 @@
 .ollama
 .env
 Machine LEarning.pdf
+faiss_index
+chroma_db
