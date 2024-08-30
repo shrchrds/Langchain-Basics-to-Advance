@@ -19,3 +19,9 @@ fastapi
 uvicorn
 langserve
 sse_starlette
+arxiv
+wikipedia
+langchainhub
+langsmith
+duckduckgo-search
+pypdf
