@@ -31,3 +31,4 @@ pytube
 numexpr
 huggingface_hub
 numexpr
+langchain-huggingface
