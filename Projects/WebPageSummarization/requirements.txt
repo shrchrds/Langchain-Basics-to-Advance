@@ -33,3 +33,4 @@ huggingface_hub
 numexpr
 langchain-huggingface
 gradio
+langchain-nvidia-ai-endpoints
