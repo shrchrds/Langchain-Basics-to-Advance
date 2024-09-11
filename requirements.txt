@@ -33,3 +33,5 @@ huggingface_hub
 numexpr
 langchain-huggingface
 gradio
+crewai
+crewai_tools
