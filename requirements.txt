@@ -35,3 +35,4 @@ langchain-huggingface
 gradio
 crewai
 crewai_tools
+neo4j==5.14
